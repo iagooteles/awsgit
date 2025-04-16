@@ -1,0 +1,124 @@
+<%- include('partials/header') %>
+
+<!-- Spinner Start -->
+<div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Carregando...</span>
+    </div>
+</div>
+<!-- Spinner End -->
+
+<%- include('partials/nav') %>
+
+<!-- Modal Search Start -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Procure por palavra-chave</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex align-items-center bg-primary">
+                <div class="input-group w-75 mx-auto d-flex">
+                    <input type="search" class="form-control p-3" placeholder="palavra-chave"
+                        aria-describedby="search-icon-1">
+                    <span id="search-icon-1" class="btn bg-light border nput-group-text p-3"><i
+                            class="fa fa-search"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Search End -->
+
+<!-- Header Start -->
+<div class="container-fluid bg-breadcrumb">
+    <div class="container text-center py-5" style="max-width: 900px;">
+        <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Testimonial</h4>
+        <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item active text-primary">Testimonial</li>
+        </ol>
+    </div>
+</div>
+<!-- Header End -->
+
+<!-- Testimonial Start -->
+<div class="container-fluid testimonial bg-dark py-5" style="margin: 90px 0;">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">Testimonial</h4>
+            <h1 class="display-4 text-white">What Our Customers Are Saying</h1>
+        </div>
+        <div class="testimonial-carousel owl-carousel wow fadeInUp" data-wow-delay="0.2s">
+            <div class="testimonial-item mx-auto" style="max-width: 900px;">
+                <span class="fa fa-quote-left fa-3x quote-icon"></span>
+                <div class="testimonial-img mb-4">
+                    <img src="img/testimonial-1.jpg" class="img-fluid" alt="Image">
+                </div>
+                <p class="fs-4 text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi
+                    deleniti ratione similique eaque blanditiis fugit voluptas ex officiis expedita repellat
+                    doloribus veniam delectus tempore, laudantium, aliquam ad? Rem, accusantium?
+                </p>
+                <div class="d-block">
+                    <h4 class="text-white">Client Name</h4>
+                    <p class="m-0 pb-3">Profession</p>
+                    <div class="d-flex">
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-white"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item mx-auto" style="max-width: 900px;">
+                <span class="fa fa-quote-left fa-3x quote-icon"></span>
+                <div class="testimonial-img mb-4">
+                    <img src="img/testimonial-2.jpg" class="img-fluid" alt="Image">
+                </div>
+                <p class="fs-4 text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi
+                    deleniti ratione similique eaque blanditiis fugit voluptas ex officiis expedita repellat
+                    doloribus veniam delectus tempore, laudantium, aliquam ad? Rem, accusantium?
+                </p>
+                <div class="d-block">
+                    <h4 class="text-white">Client Name</h4>
+                    <p class="m-0 pb-3">Profession</p>
+                    <div class="d-flex">
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-white"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item mx-auto" style="max-width: 900px;">
+                <span class="fa fa-quote-left fa-3x quote-icon"></span>
+                <div class="testimonial-img mb-4">
+                    <img src="img/testimonial-3.jpg" class="img-fluid" alt="Image">
+                </div>
+                <p class="fs-4 text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quasi
+                    deleniti ratione similique eaque blanditiis fugit voluptas ex officiis expedita repellat
+                    doloribus veniam delectus tempore, laudantium, aliquam ad? Rem, accusantium?
+                </p>
+                <div class="d-block">
+                    <h4 class="text-white">Client Name</h4>
+                    <p class="m-0 pb-3">Profession</p>
+                    <div class="d-flex">
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-primary"></i>
+                        <i class="fas fa-star text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+<%- include('partials/footer') %>

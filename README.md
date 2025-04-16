@@ -52,3 +52,4 @@ Este projeto não é de autoria própria, sendo baseado em um template do site *
 ### PROVA AWS
 
 - Usar Git log para voltar o commit
+- Dia 23;
