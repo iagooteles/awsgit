@@ -11,6 +11,14 @@ O objetivo deste projeto é hospedar o site fitness na **Amazon Web Services (AW
 
 Este projeto foi criado para fins educacionais e para entender melhor como esses serviços da AWS funcionam. Não há intenções comerciais relacionadas a este template.
 
+
+## Tecnologias
+
+- Express;
+- EJS;
+- Github;
+- AWS;
+
 ## Funcionalidades
 
 - **Interface de site fitness** com design responsivo.
