@@ -11,5 +11,6 @@ router.get("/feature", homeController.feature);
 router.get("/team", homeController.team);
 router.get("/testimonial", homeController.testimonial);
 router.get("/404", homeController.notFound);
+router.get("/newRoute", homeController.notFound);
 
 module.exports = router;

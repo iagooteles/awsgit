@@ -18,6 +18,7 @@ app.use("/feature", indexRoutes);
 app.use("/team", indexRoutes);
 app.use("/testimonial", indexRoutes);
 app.use("/404", indexRoutes);
+app.use("/newRoute", indexRoutes);
 
 
 //rota com parametro 

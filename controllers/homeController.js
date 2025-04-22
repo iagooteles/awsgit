@@ -33,3 +33,7 @@ exports.testimonial = (req, res) => {
 exports.notFound = (req, res) => {
     res.render("404");
 }
+
+exports.notFound = (req, res) => {
+    res.render("newRoute");
+}
