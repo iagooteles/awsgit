@@ -59,5 +59,53 @@ Este projeto não é de autoria própria, sendo baseado em um template do site *
 
 ### PROVA AWS
 
-- Usar Git log para voltar o commit
-- Dia 23;
+- Security groups => liberar porta 3000;
+
+Permissões de usuário root:
+```bash
+sudo su
+```
+Instalar nvm:
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
+Ativar nvm:
+```bash
+. ~/.nvm/nvm.sh
+```
+Usar nvm para instalar a versão mais recente do node:
+```bash
+nvm install --lts 
+```
+Testar o node: 
+```bash
+node -v 
+```
+Instalar o git:
+```bash
+sudo yum install git -y
+```
+Testar git:
+```bash
+git --version
+```
+Clonar o repo:
+```bash
+git clone ...
+```
+Navegar ao index
+```bash
+cd .......
+```
+Fazer download das dependências:
+```bash
+npm install
+```
+Rodar o app
+```bash
+node index.js
+```
+Ou
+```bash
+npm run dev-aws
+```
