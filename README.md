@@ -59,7 +59,7 @@ Este projeto não é de autoria própria, sendo baseado em um template do site *
 - Este projeto é **não comercial** e **educacional**.
 
 
-### PROVA AWS
+### Comandos para executar github no AWS
 
 - Security groups => liberar porta 3000;
 
@@ -95,9 +95,9 @@ Clonar o repo:
 ```bash
 git clone ...
 ```
-Navegar ao index
+Navegar ao index ou app do projeto
 ```bash
-cd .......
+cd ..
 ```
 Fazer download das dependências:
 ```bash
