@@ -1,5 +1,7 @@
 # AWS - Fitness Website
 
+Template criado para minha prova AWS
+
 Este projeto é baseado em um template de site fitness disponível no [HTMLCodex](https://htmlcodex.com/). O objetivo principal deste projeto é demonstrar e adquirir conhecimento com os serviços da **Amazon Web Services (AWS)**, como **S3**, **IAM** e **Buckets**. O template foi modificado para fins educacionais e não tem fins comerciais.
 
 ## Objetivo do Projeto
